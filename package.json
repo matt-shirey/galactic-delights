@@ -1,0 +1,22 @@
+{
+  "name": "galactic-delights",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "pnpm vite dev",
+    "dev": "pnpm vite dev",
+    "build": "pnpm vite build",
+    "new": "node ./js/new.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-html-parser": "^6.1.13",
+    "vite": "^5.2.10",
+    "vite-plugin-list-directory-contents": "^1.4.5"
+  }
+}
