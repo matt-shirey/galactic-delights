@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
     --black: black;
     --white: white;
@@ -10,37 +14,6 @@ body {
     height: 100%;
 }
 
-#masthead.preview {
-    background: var(--black);
-    color: var(--white);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 12px;
-}
-#masthead.preview div {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-}
-#masthead.preview a {
-    color: var(--white);
-    text-decoration: none;
-}
-#masthead.preview a:hover,
-#masthead.preview a:focus,
-#masthead.preview a:active {
-    text-decoration: underline;
-}
-#masthead.preview .logo {
-    text-transform: uppercase;
-    font-size: 18px;
-}
-#masthead.preview nav {
-    align-items: center;
-    display: flex;
-    gap: 16px;
-}
 
 #footer.preview {
     background: var(--black);

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="h-full">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport"
@@ -8,28 +8,16 @@
         <script src="https://unpkg.com/htmx.org@1.9.12"></script>
         <link href="../../../src/css/preview.css" rel="stylesheet" />
         <link href="./template.css" rel="stylesheet" />
+        <script src="../../../src/js/preview.js"></script>
         <script src="./template.js"></script>
         <title>New Document</title>
     </head>
-    <body>
-        <header id="masthead" class="preview">
-            <div>
-                <div class="logo">
-                    💫 <span>Galactic Delights</span>
-                </div>
-            </div>
-            <nav>
-                <a href="/demos">Back to Demos</a>
-                <a href="https://github.com/matt-shirey/galactic-delights/tree/main/demos">
-                    Checkout the code
-                </a>
-            </nav>
-        </header>
-        <main id="content" class="preview">
-            CONTENT HERE
-        </main>
-        <footer id="footer" class="preview">
-            &copy; <span class="copyright-year"></span> - Galactic Delights
-        </footer>
+    <body class="h-full">
+        <div class="min-h-full">
+            <div class="placeholder-header"></div>
+            <main id="content" class="preview">
+                CONTENT HERE
+            </main>
+        </div>
     </body>
 </html>
